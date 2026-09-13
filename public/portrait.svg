@@ -1,0 +1,18 @@
+<svg width="400" height="480" viewBox="0 0 400 480" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ảnh chân dung placeholder">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="400" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a" />
+      <stop offset="1" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0" y1="0" x2="400" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2dd4bf" />
+      <stop offset="0.5" stop-color="#22d3ee" />
+      <stop offset="1" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="480" rx="24" fill="url(#bgGradient)" />
+  <circle cx="200" cy="180" r="90" fill="url(#accentGradient)" opacity="0.9" />
+  <circle cx="200" cy="160" r="55" fill="#e2e8f0" />
+  <path d="M110 400c0-54 40-96 90-96s90 42 90 96v40H110v-40Z" fill="#e2e8f0" />
+  <rect x="120" y="430" width="160" height="14" rx="7" fill="url(#accentGradient)" opacity="0.6" />
+</svg>
