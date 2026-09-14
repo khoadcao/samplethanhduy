@@ -86,9 +86,9 @@ export type SiteContent = {
 };
 
 export const content: SiteContent = {
-  name: "ThS. Phạm Lâm Tùng",
-  title: "ThS. Phạm Lâm Tùng",
-  subtitle: "NHÀ ĐÀO TẠO & TƯ VẤN",
+  name: "Vũ Thành Duy",
+  title: "Vũ Thành Duy",
+  subtitle: "",
   languageLabel: "EN",
   ctaLabel: "Đặt lịch hẹn",
   nav: [
@@ -99,9 +99,8 @@ export const content: SiteContent = {
   ],
   hero: {
     greeting: "XIN CHÀO, TÔI LÀ",
-    highlightName: "PHẠM LÂM TÙNG",
-    intro:
-      "Tôi giúp các tổ chức nâng cao hiệu quả công việc thông qua ứng dụng AI và EdTech.",
+    highlightName: "VŨ THÀNH DUY",
+    intro: "Ứng dụng AI và EdTech để nâng cao hiệu quả công việc.",
     profileButton: "Tải Profile",
     stats: [
       { value: "20,000+", label: "Đào tạo cho hơn 20,000 học viên" },
@@ -118,9 +117,8 @@ export const content: SiteContent = {
     heading: "Tôi là ai",
     subtitle: "Gã hoài cổ dạy AI",
     bio: [
-      "Tôi là một nhà đào tạo và tư vấn với hơn một thập kỷ đồng hành cùng các tổ chức trên hành trình chuyển đổi số và đổi mới giáo dục. Tôi tin rằng công nghệ chỉ thực sự có giá trị khi được đặt đúng vào trải nghiệm của con người.",
-      "Công việc của tôi xoay quanh việc kết nối AI, EdTech và tư duy thiết kế trải nghiệm học tập để giúp cá nhân cũng như đội nhóm làm việc hiệu quả hơn, sáng tạo hơn và bền vững hơn.",
-      "Đây là nội dung mẫu (placeholder) để bạn xem trước bố cục. Bạn có thể thay bằng câu chuyện thật của mình sau này bằng cách chỉnh sửa trong lib/content.ts.",
+      "Nhà đào tạo và tư vấn đồng hành cùng các tổ chức trên hành trình chuyển đổi số và đổi mới giáo dục.",
+      "Kết nối AI, EdTech và thiết kế trải nghiệm học tập để cá nhân và đội nhóm làm việc hiệu quả hơn.",
     ],
     skillsHeading: "Chuyên môn",
     skills: [
@@ -157,33 +155,31 @@ export const content: SiteContent = {
   },
   values: {
     heading: "Giá trị tôi mang lại",
-    intro:
-      "Ba nhóm giải pháp cốt lõi giúp cá nhân và tổ chức ứng dụng AI một cách thực chất và bền vững.",
+    intro: "Ba nhóm giải pháp cốt lõi giúp ứng dụng AI thực chất và bền vững.",
     cards: [
       {
         title: "Đào tạo kỹ năng",
         description:
-          "Các chương trình đào tạo thực chiến giúp đội ngũ nhanh chóng làm chủ công cụ AI và áp dụng vào công việc hằng ngày.",
+          "Chương trình thực chiến giúp đội ngũ làm chủ công cụ AI trong công việc.",
         icon: "training",
       },
       {
         title: "Thiết kế chương trình",
         description:
-          "Thiết kế lộ trình và trải nghiệm học tập bài bản, phù hợp với mục tiêu và văn hóa của từng tổ chức.",
+          "Thiết kế lộ trình học tập bài bản, phù hợp mục tiêu từng tổ chức.",
         icon: "design",
       },
       {
         title: "Tham vấn & Khai vấn",
         description:
-          "Đồng hành tư vấn và khai vấn để cá nhân, đội nhóm tìm ra hướng đi phù hợp trong hành trình chuyển đổi.",
+          "Đồng hành tư vấn để tìm ra hướng đi phù hợp trong chuyển đổi.",
         icon: "coaching",
       },
     ],
   },
   programs: {
     heading: "Danh mục chương trình đào tạo AI",
-    intro:
-      "Hệ thống chủ đề đào tạo được thiết kế linh hoạt theo nhu cầu của từng nhóm đối tượng.",
+    intro: "Các chủ đề đào tạo linh hoạt theo nhu cầu từng nhóm đối tượng.",
     cards: [
       {
         title: "AI nền tảng",
@@ -233,14 +229,13 @@ export const content: SiteContent = {
     },
   },
   footer: {
-    tagline:
-      "Nhà đào tạo & tư vấn AI/EdTech, đồng hành cùng bạn trên hành trình học tập suốt đời.",
+    tagline: "Nhà đào tạo & tư vấn AI/EdTech.",
     links: [
       { label: "Về tôi", href: "#about" },
       { label: "Giải pháp", href: "#values" },
       { label: "Kinh nghiệm", href: "#experience" },
       { label: "Chương trình", href: "#programs" },
     ],
-    copyright: "© 2024 ThS. Phạm Lâm Tùng. Nội dung mẫu (placeholder).",
+    copyright: "© 2024 Vũ Thành Duy. Nội dung mẫu (placeholder).",
   },
 };

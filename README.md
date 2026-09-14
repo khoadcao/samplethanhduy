@@ -1,4 +1,4 @@
-# Portfolio Demo — ThS. Phạm Lâm Tùng
+# Portfolio Demo - Vũ Thành Duy
 
 Bản demo trang giới thiệu cá nhân (personal portfolio / personal branding) cho
 một nhà đào tạo & tư vấn AI/EdTech. Giao diện dark theme sang trọng, màu nhấn

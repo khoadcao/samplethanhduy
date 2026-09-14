@@ -3,9 +3,9 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
 
 export const metadata: Metadata = {
-  title: "ThS. Pham Lam Tung - Nha dao tao & Tu van AI/EdTech",
+  title: "Vu Thanh Duy - Dao tao & Tu van AI/EdTech",
   description:
-    "Trang giới thiệu cá nhân của ThS. Phạm Lâm Tùng, nhà đào tạo và tư vấn AI/EdTech. Giúp các tổ chức nâng cao hiệu quả công việc thông qua ứng dụng AI và EdTech.",
+    "Trang giới thiệu cá nhân của Vũ Thành Duy, nhà đào tạo và tư vấn AI/EdTech. Ứng dụng AI và EdTech để nâng cao hiệu quả công việc.",
 };
 
 const noFlashScript = `(function () {

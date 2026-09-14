@@ -15,12 +15,14 @@ export function Footer() {
             <img src="/logo.svg" alt="Logo" width={36} height={36} className="h-9 w-9" />
             <span className="flex flex-col leading-tight">
               <span className="text-sm font-bold">{name}</span>
-              <span
-                className="text-[10px] font-semibold tracking-widest"
-                style={{ color: "rgb(var(--muted))" }}
-              >
-                {subtitle}
-              </span>
+              {subtitle && (
+                <span
+                  className="text-[10px] font-semibold tracking-widest"
+                  style={{ color: "rgb(var(--muted))" }}
+                >
+                  {subtitle}
+                </span>
+              )}
             </span>
           </div>
           <p className="mt-4 text-sm" style={{ color: "rgb(var(--muted))" }}>

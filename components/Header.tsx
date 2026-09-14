@@ -30,12 +30,14 @@ export function Header() {
             <span className="text-sm font-bold sm:text-base">
               {content.name}
             </span>
-            <span
-              className="text-[10px] font-semibold tracking-widest sm:text-xs"
-              style={{ color: "rgb(var(--muted))" }}
-            >
-              {content.subtitle}
-            </span>
+            {content.subtitle && (
+              <span
+                className="text-[10px] font-semibold tracking-widest sm:text-xs"
+                style={{ color: "rgb(var(--muted))" }}
+              >
+                {content.subtitle}
+              </span>
+            )}
           </span>
         </a>
 

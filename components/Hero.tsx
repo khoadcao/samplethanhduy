@@ -71,7 +71,7 @@ export function Hero() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/portrait.svg"
-              alt="Ảnh chân dung ThS. Phạm Lâm Tùng"
+              alt="Ảnh chân dung Vũ Thành Duy"
               className="h-auto w-full"
             />
           </div>
